@@ -11,9 +11,7 @@ export const Hero = () => {
         <div className="container">
           <div className="md:flex items-center">
             <div className="md:w-[478px]">
-              <div className="text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-sm">
-                ajel-corporation v2.0
-              </div>
+              <div className="badge">ajel-corporation v2.0</div>
               <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-b from-orange-500 to-orange-600 text-transparent bg-clip-text mt-6 ">
                 Des outils taillés pour vous aider
               </h1>
