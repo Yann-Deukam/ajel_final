@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-sm font-medium inline-flex items-center justify-center;
+  }
+
+  .btn-primary {
+    @apply bg-slate-800 text-white;
+  }
+
+  .btn-text {
+    @apply text-slate-800 bg-transparent;
+  }
+}
